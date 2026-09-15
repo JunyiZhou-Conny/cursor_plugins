@@ -13,6 +13,7 @@ Match this playbook when the user talks about look, cute, warm, cartoony, silhou
 7. If one metric is named, **Hillclimb** with a frozen still or score. Do not edit a Visual parity baseline to pass taste.
 8. If the look is decided and needs shipping code, **Feature** with `architect skipped: look already chosen` unless the change crosses a real software boundary.
 9. Contested look: `arena` with the atelier rubric, not `architect/references/design-red-flags.md`.
-10. Run **Opening a PR**.
+
+No PR. Feature and Hillclimb already open one. Critique-only is an answer, not a diff.
 
 **Reply:** the scores, the three problems, the one change, what you kept, and the still paths.
