@@ -1,0 +1,27 @@
+{
+  "name": "atelier",
+  "displayName": "Atelier",
+  "version": "0.1.0",
+  "description": "Visual identity and stylized character-look specialists. Critique silhouette, stickers versus identity, materials, lighting, and story staging. Not a second workflow OS.",
+  "author": {
+    "name": "Junyi (Conny) Zhou"
+  },
+  "homepage": "https://github.com/JunyiZhou-Conny/cursor_plugins/tree/main/atelier",
+  "repository": "https://github.com/JunyiZhou-Conny/cursor_plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "atelier",
+    "look",
+    "silhouette",
+    "character",
+    "lighting",
+    "taste"
+  ],
+  "category": "utilities",
+  "tags": [
+    "visual",
+    "identity"
+  ],
+  "skills": "./skills/"
+}

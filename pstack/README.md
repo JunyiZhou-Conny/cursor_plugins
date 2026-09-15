@@ -35,7 +35,7 @@ use [`/poteto-mode`](./skills/poteto-mode/SKILL.md) at the start of a task. it r
 
 ### just use [`/poteto-mode`](./skills/poteto-mode/SKILL.md)
 
-this skill is the main shortcut. i use it whenever i need the agent to do rigorous engineering work. it comes with twenty-three playbooks:
+this skill is the main shortcut. i use it whenever i need the agent to do rigorous engineering work. it comes with twenty-four playbooks:
 
 ```
 /poteto-mode this pr has a subtle bug where the scroll drifts every 750ms even when idle. repro
@@ -48,7 +48,7 @@ morning.
 ```
 
 <details>
-<summary>the twenty-three playbooks</summary>
+<summary>the twenty-four playbooks</summary>
 
 | playbook | for |
 |---|---|
@@ -58,7 +58,8 @@ morning.
 | [hillclimb](./skills/poteto-mode/playbooks/hillclimb.md) | sustained, scientific improvement of one metric against a target, looping hypotheses with before/after measurement and one commit per accepted win. |
 | [runtime forensics](./skills/poteto-mode/playbooks/runtime-forensics.md) | diagnose a live symptom (leak, idle-cpu spin, glitch) from instrumentation. |
 | [trace forensics](./skills/poteto-mode/playbooks/trace-forensics.md) | diagnose a captured profiling artifact (cpuprofile, trace, spindump, heap snapshot). |
-| [feature](./skills/poteto-mode/playbooks/feature.md) | new or changed behavior, built from a named data shape. |
+| [look](./skills/poteto-mode/playbooks/look.md) | visual identity, character look, silhouette, stickers versus identity, materials, lighting, staging. not architect. |
+| [feature](./skills/poteto-mode/playbooks/feature.md) | new or changed software behavior, built from a named data shape. |
 | [refactoring](./skills/poteto-mode/playbooks/refactoring.md) | a behavior-preserving change to structure or shape. |
 | [prototype](./skills/poteto-mode/playbooks/prototype.md) | a throwaway sketch to make a design or behavioral decision cheaply, or to settle an empirical fork by observing it. |
 | [visual parity](./skills/poteto-mode/playbooks/visual-parity.md) | pixel-exact ui equivalence between two implementations. |
@@ -232,9 +233,10 @@ a few things `poteto-mode` references but doesn't bundle:
 
 - `/deslop` and the `deslop` skill ship in the `cursor-team-kit` plugin.
 - `control-cli` (for CLIs and TUIs) and `control-ui` (for browser, Electron, web) ship in `cursor-team-kit` too.
+- look specialists (`critique-look`, silhouette, stickers, materials, staging) ship in the `atelier` plugin. `/poteto-mode` routes "make it cuter" there, not through `architect`.
 - `/create-skill` is a cursor built-in. cursor also ships a built-in `/babysit`; inside `poteto-mode`, the [babysit playbook](./skills/poteto-mode/playbooks/babysit.md) supersedes it for pr-status requests.
 
-install `cursor-team-kit` alongside pstack if you want the full set.
+install `cursor-team-kit` and `atelier` alongside pstack if you want the full set.
 
 ## why are there no planning skills?
 
