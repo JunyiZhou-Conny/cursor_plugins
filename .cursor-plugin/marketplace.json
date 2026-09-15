@@ -79,6 +79,11 @@
       "description": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions."
     },
     {
+      "name": "atelier",
+      "source": "atelier",
+      "description": "Visual identity and stylized character-look specialists. Critique silhouette, stickers versus identity, materials, lighting, and story staging."
+    },
+    {
       "name": "advisor",
       "source": "advisor",
       "description": "Consult a stronger model before major decisions, when stuck, and before declaring done."
