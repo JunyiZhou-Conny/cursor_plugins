@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "run_id": null,
+  "mode": "new",
+  "phase": "DRAFT",
+  "updated_at": null,
+  "owner": null,
+  "reference_approval": {
+    "status": "not_requested",
+    "asset_id": null,
+    "authority": null
+  },
+  "authorization": {
+    "upload_provider": null,
+    "approval_evidence": null,
+    "currency": "USD",
+    "cap": null,
+    "max_paid_submissions": null,
+    "autonomous_iterations": false,
+    "include_private_references": false,
+    "repository_write": false,
+    "publish": false
+  },
+  "costs": {
+    "confirmed_actual_usd": 0,
+    "estimated_completed_usd": 0,
+    "reserved_inflight_usd": 0,
+    "account_balance_verified": false,
+    "ledger": []
+  },
+  "active_job": null,
+  "submission_marker": null,
+  "accepted_model_id": null,
+  "validation": {
+    "provider_result": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "local_archive": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "structure_inventory": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "format_validator": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "multiview": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "target_runtime": {
+      "status": "not_run",
+      "evidence": []
+    }
+  },
+  "blockers": [],
+  "next_action": "Read inputs and clarify only essential missing information."
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "run_id": null,
+  "allowed_download_hosts": [
+    "*.fal.media"
+  ],
+  "assets": [
+    {
+      "id": "brief_md",
+      "role": "handoff_document",
+      "local_path": "BRIEF.md",
+      "url": null,
+      "required": true,
+      "package_include": true,
+      "privacy": "shareable_document",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "source": {
+        "kind": "agent_authored",
+        "evidence": null
+      }
+    },
+    {
+      "id": "run_state_json",
+      "role": "handoff_document",
+      "local_path": "RUN_STATE.json",
+      "url": null,
+      "required": true,
+      "package_include": true,
+      "privacy": "shareable_document",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "source": {
+        "kind": "agent_authored",
+        "evidence": null
+      }
+    },
+    {
+      "id": "handoff_md",
+      "role": "handoff_document",
+      "local_path": "HANDOFF.md",
+      "url": null,
+      "required": true,
+      "package_include": true,
+      "privacy": "shareable_document",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "source": {
+        "kind": "agent_authored",
+        "evidence": null
+      }
+    },
+    {
+      "id": "next_agent_prompt_md",
+      "role": "handoff_document",
+      "local_path": "NEXT_AGENT_PROMPT.md",
+      "url": null,
+      "required": true,
+      "package_include": true,
+      "privacy": "shareable_document",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "source": {
+        "kind": "agent_authored",
+        "evidence": null
+      }
+    },
+    {
+      "id": "qa_report_md",
+      "role": "handoff_document",
+      "local_path": "QA_REPORT.md",
+      "url": null,
+      "required": true,
+      "package_include": true,
+      "privacy": "shareable_document",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "source": {
+        "kind": "agent_authored",
+        "evidence": null
+      }
+    },
+    {
+      "id": "original_glb",
+      "role": "model",
+      "format": "glb",
+      "local_path": "assets/model/original.glb",
+      "url": null,
+      "required": true,
+      "package_include": true,
+      "privacy": "project_asset",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "source": {
+        "kind": "provider_result",
+        "request_id": null,
+        "evidence": null
+      }
+    }
+  ]
+}
