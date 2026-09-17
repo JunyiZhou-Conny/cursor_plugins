@@ -1,0 +1,136 @@
+{
+  "name": "generate-3d-model",
+  "version": "1.0.0",
+  "reviewed": "2026-09-17",
+  "kind": "reusable_agent_skill",
+  "contains_user_images_or_3d_models": false,
+  "installed_into_user_client": false,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 528,
+      "sha256": "163a451a6867561a956e5c181bfeb65abe85d77b36b3ff78cbef7a1b5cabd70e"
+    },
+    {
+      "path": "PROMPT.md",
+      "bytes": 12081,
+      "sha256": "7e11311720df5ad90b0dc392ea00742920d58515b1c869bf3b0f663e2dc39db3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5345,
+      "sha256": "1b9ae061263eb431dceb68255f14d2b205f1af845db154604c4b422095425862"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15723,
+      "sha256": "347f905c0511abeec4bc255b7bde0cdaa515bd94ce3f2f662f6d97aa26576698"
+    },
+    {
+      "path": "assets/templates/ASSETS.json",
+      "bytes": 2396,
+      "sha256": "82b409226ca2036f722903c245c7b38a3a58908fee675a9319b349cf847c1654"
+    },
+    {
+      "path": "assets/templates/ASSET_FIELDS.md",
+      "bytes": 2188,
+      "sha256": "155f65b8a7967f7aadbe53c8744a3f234e1811c9e3b734fca6240e604c006d7a"
+    },
+    {
+      "path": "assets/templates/BRIEF.md",
+      "bytes": 1111,
+      "sha256": "1a5423fafdff96114fb3e7ae4b6d0b40ce23a483159d9dc1871263095d936c76"
+    },
+    {
+      "path": "assets/templates/EXPERIMENT.json",
+      "bytes": 954,
+      "sha256": "4c192098d28b5acc6ee85e48ae151e0f1a2a4e2506cafaaa2f6e8b04b2e01412"
+    },
+    {
+      "path": "assets/templates/HANDOFF.md",
+      "bytes": 2183,
+      "sha256": "bc3ff1bbae35075487910bc48e45b1c21f3eb0662a25118929701246dee3c891"
+    },
+    {
+      "path": "assets/templates/NEXT_AGENT_PROMPT.md",
+      "bytes": 1324,
+      "sha256": "fd12456883b7961b7dddc149f757ddbdaa17fbb5edb022dfb2bf4906229ff8d7"
+    },
+    {
+      "path": "assets/templates/PROMPTS.md",
+      "bytes": 2578,
+      "sha256": "662862cd0d0ff46a35a94a783267ca56812f871ad486cad68c2f4e999b8df245"
+    },
+    {
+      "path": "assets/templates/QA_REPORT.md",
+      "bytes": 841,
+      "sha256": "4803cbecb335f14032457e359a980ec05e68b2333e821d84da967001348acbf5"
+    },
+    {
+      "path": "assets/templates/RUN_STATE.json",
+      "bytes": 1366,
+      "sha256": "192ff8df4b16b38cde0c9a9bbe446ee0dfffde62bedd84e55c75e813885eee73"
+    },
+    {
+      "path": "evals/README.md",
+      "bytes": 1142,
+      "sha256": "9adcbac939d035255662be695fe4574b2f23d8cfc9fbcda524871ef4e06e3e43"
+    },
+    {
+      "path": "evals/scenarios.json",
+      "bytes": 7663,
+      "sha256": "7357a17855c42b65bfb71b7a8008090fe999b09eb16f1d0897d09d44c0bc92f0"
+    },
+    {
+      "path": "evals/test_asset_tools.py",
+      "bytes": 12181,
+      "sha256": "f381684868533f634f0133a8c2a909bf4d5678ebbe1640b0b6e50e3b5dd34b1e"
+    },
+    {
+      "path": "evals/unit_test_results.txt",
+      "bytes": 3105,
+      "sha256": "eb8b0baf921f4b2aad16c6ea0009cca671d0ee903a1ba302f8d6279c33f4bf68"
+    },
+    {
+      "path": "evals/validation_report.json",
+      "bytes": 1459,
+      "sha256": "0da102dd13492750f6164c7399d969b4cf58fa6bbbbca09c7e3684e9871fae4a"
+    },
+    {
+      "path": "references/first-run-lessons.md",
+      "bytes": 2842,
+      "sha256": "26fea381a01809b44a40b03c356d3646bab5248a37a1e4ce62aca5dfd66efd40"
+    },
+    {
+      "path": "references/input-and-style.md",
+      "bytes": 3962,
+      "sha256": "a09956431058a9ff8a16208794e7a0e043192b53352aaee181fe3b51aa458a05"
+    },
+    {
+      "path": "references/official-sources.md",
+      "bytes": 4193,
+      "sha256": "cda2cfbdef0ce08a198158dd499b54047b74ae1a3091958d9665363e9b43ccf3"
+    },
+    {
+      "path": "references/provider-and-jobs.md",
+      "bytes": 4441,
+      "sha256": "57cbd21979e558a85b61d6dc4efae5e30b4fa2a94cdbd4cbe9110dd99fe5e537"
+    },
+    {
+      "path": "references/quality-and-delivery.md",
+      "bytes": 3957,
+      "sha256": "46a852e77c6e6c8dca75ba010c9055afc3f537b54e9dee84d83aaf5a32985856"
+    },
+    {
+      "path": "references/repository-adapter.md",
+      "bytes": 2207,
+      "sha256": "b6f590bb4ba752c97a2d9bf798866f72cbb8de02e58e0766b22cfa3846e68672"
+    },
+    {
+      "path": "scripts/asset_tools.py",
+      "bytes": 24122,
+      "sha256": "47fac612c7a9f345f90089b1535516fc9ffadf917bc91d87a428542d28b25d07"
+    }
+  ],
+  "self_exclusion": "MANIFEST.json and CHECKSUMS.sha256 are excluded from this file list to avoid self-referential hashes. CHECKSUMS.sha256 includes MANIFEST.json."
+}

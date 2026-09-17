@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "checked_date": "2026-09-17",
+  "python_test_runtime": "3.13.5",
+  "unit_tests": {
+    "run": 35,
+    "passed": 35,
+    "failures": 0,
+    "errors": 0,
+    "scope": "Synthetic GLB/file fixtures and mocked HTTP; no live provider calls."
+  },
+  "skill_format": {
+    "status": "pass",
+    "name": "generate-3d-model",
+    "line_count": 216,
+    "yaml_frontmatter_checked": true,
+    "validator": "Local checks against the cited Agent Skills specification; skills-ref CLI was not invoked."
+  },
+  "markdown_relative_links": "pass",
+  "template_json_parse": "pass",
+  "original_case_identifiers_scan": "pass",
+  "agent_behavior_scenarios": {
+    "count": 14,
+    "status": "designed_not_executed"
+  },
+  "paid_end_to_end_generation_this_release": "not_run",
+  "new_paid_generation_jobs": 0,
+  "real_user_glb_validation_this_release": "not_run",
+  "installation_into_user_client": "not_performed",
+  "repository_modifications": "not_performed",
+  "limitations": [
+    "Python 3.10+ is the intended compatibility range; tests were only executed on the runtime reported above.",
+    "No proof of agent autonomy across all hosts, no real 3D generation or browser/WebGL rendering in this skill-authoring release.",
+    "Source URLs and prices were checked on the date shown; must be refreshed before future paid use.",
+    "The utility pack has no credential-content scanner or network sandbox; manual privacy review remains required."
+  ]
+}

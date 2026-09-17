@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": null,
+  "purpose": null,
+  "observed_problem": null,
+  "hypothesis": null,
+  "primary_change": null,
+  "approval_evidence": null,
+  "input": {
+    "source_asset_id": null,
+    "submitted_asset_id": null,
+    "submitted_sha256": null,
+    "preprocessing": []
+  },
+  "provider": {
+    "platform": null,
+    "endpoint_id": null,
+    "schema_checked_at": null,
+    "schema_source": null
+  },
+  "proposed_payload": null,
+  "executed_payload": null,
+  "payload_fingerprint": null,
+  "job": {
+    "request_id": null,
+    "submitted_at": null,
+    "status_url": null,
+    "response_url": null,
+    "provider_status": null,
+    "normalized_status": null
+  },
+  "cost": {
+    "currency": "USD",
+    "estimate": null,
+    "estimate_source": null,
+    "actual": null,
+    "actual_evidence": null
+  },
+  "returned_seed": null,
+  "seed_input_supported": null,
+  "results": [],
+  "comparison": null,
+  "decision": null
+}

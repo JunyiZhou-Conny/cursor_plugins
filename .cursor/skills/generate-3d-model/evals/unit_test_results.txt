@@ -1,0 +1,40 @@
+test_allowed_host (test_asset_tools.ToolsTest.test_allowed_host) ... ok
+test_bad_download_not_committed (test_asset_tools.ToolsTest.test_bad_download_not_committed) ... ok
+test_bad_hash (test_asset_tools.ToolsTest.test_bad_hash) ... ok
+test_bad_header (test_asset_tools.ToolsTest.test_bad_header) ... ok
+test_download_atomic_mock (test_asset_tools.ToolsTest.test_download_atomic_mock) ... ok
+test_download_cap (test_asset_tools.ToolsTest.test_download_cap) ... ok
+test_download_existing_invalid_no_overwrite (test_asset_tools.ToolsTest.test_download_existing_invalid_no_overwrite) ... ok
+test_download_missing_url (test_asset_tools.ToolsTest.test_download_missing_url) ... ok
+test_download_page_escapes_html (test_asset_tools.ToolsTest.test_download_page_escapes_html) ... ok
+test_download_skips_existing (test_asset_tools.ToolsTest.test_download_skips_existing) ... ok
+test_duplicate_manifest (test_asset_tools.ToolsTest.test_duplicate_manifest) ... ok
+test_exact_host (test_asset_tools.ToolsTest.test_exact_host) ... ok
+test_exclude_private_and_secret_no_url_leak (test_asset_tools.ToolsTest.test_exclude_private_and_secret_no_url_leak) ... ok
+test_external_resources_not_fetched (test_asset_tools.ToolsTest.test_external_resources_not_fetched) ... ok
+test_host_suffix_attack (test_asset_tools.ToolsTest.test_host_suffix_attack) ... ok
+test_http_and_credentials_and_port (test_asset_tools.ToolsTest.test_http_and_credentials_and_port) ... ok
+test_include_private_explicit (test_asset_tools.ToolsTest.test_include_private_explicit) ... ok
+test_init (test_asset_tools.ToolsTest.test_init) ... ok
+test_init_never_overwrites (test_asset_tools.ToolsTest.test_init_never_overwrites) ... ok
+test_inspect_glb (test_asset_tools.ToolsTest.test_inspect_glb) ... ok
+test_invalid_accessor (test_asset_tools.ToolsTest.test_invalid_accessor) ... ok
+test_length_mismatch (test_asset_tools.ToolsTest.test_length_mismatch) ... ok
+test_local_hash_not_official (test_asset_tools.ToolsTest.test_local_hash_not_official) ... ok
+test_local_ip (test_asset_tools.ToolsTest.test_local_ip) ... ok
+test_manifest_requires_privacy (test_asset_tools.ToolsTest.test_manifest_requires_privacy) ... ok
+test_missing_json (test_asset_tools.ToolsTest.test_missing_json) ... ok
+test_no_archive_overwrite (test_asset_tools.ToolsTest.test_no_archive_overwrite) ... ok
+test_pack_complete_and_checksum (test_asset_tools.ToolsTest.test_pack_complete_and_checksum) ... ok
+test_pack_hash_mismatch (test_asset_tools.ToolsTest.test_pack_hash_mismatch) ... ok
+test_pack_partial_truthful (test_asset_tools.ToolsTest.test_pack_partial_truthful) ... ok
+test_path_symlink (test_asset_tools.ToolsTest.test_path_symlink) ... ok
+test_path_traversal (test_asset_tools.ToolsTest.test_path_traversal) ... ok
+test_redirect_checked (test_asset_tools.ToolsTest.test_redirect_checked) ... ok
+test_reserved_manifest (test_asset_tools.ToolsTest.test_reserved_manifest) ... ok
+test_validate_expected_hash (test_asset_tools.ToolsTest.test_validate_expected_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.038s
+
+OK
