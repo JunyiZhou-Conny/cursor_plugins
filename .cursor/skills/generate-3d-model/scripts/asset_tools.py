@@ -151,7 +151,7 @@ def validate_file(path: Path, asset: dict) -> dict:
         raise ValueError(f'File size mismatch: got {size}, expected {asset["expected_bytes"]}')
     with path.open('rb') as f:
         head = f.read(256)
-    fmt = asset.get('format') or Path(asset['local_path']).suffix.lower().lstrip('.')
+    fmt = (asset.get('format') or Path(asset['local_path']).suffix.lstrip('.')).lower()
     if fmt == 'glb':
         if len(head) < 12 or head[:4] != b'glTF':
             raise ValueError('Not a GLB: possibly an HTML error response')
